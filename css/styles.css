@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+
+body {
+    background-color: whitesmoke;
+    /* Contains the left and right flexboxes and aligns them properly */
+    display: flex;
+}
+
+#side-banner {
+    display: flex;
+    flex-direction: column;
+}
+
+#righthand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-section {
+    background-color: white;
+    ;
+}
+
+img {
+    /* images made small temporarily to work on the rest of the css */
+    height: 100%;
+    width: 500px;
+}
+
+input {
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    box-shadow: 2px 2px 2px darkgrey;
+}
+
+input[type="submit"] {
+    background-color: #596D48;
+    color: white;
+    padding: 5px;
+    /* moved border radius into main input box */
+    /* border-radius: 5px;  */
+}
