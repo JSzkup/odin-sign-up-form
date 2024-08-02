@@ -13,54 +13,61 @@
 <body>
 
     <div id="side-banner">
-        <h1>Odin</h1>
+        <div id="transparent-background">
+            <h1 id="main-title">Odin</h1>
+        </div>
         <img id="img-banner" src="images/photo-1585202900225-6d3ac20a6962.avif">
         <!-- <img id="img-logo" src="images/odin-lined.png"> -->
     </div>
 
     <div id="righthand">
         <div id="explanation-section">
-            <P>This is not a real or online sign in form! you know you need something like this in your life to help you
-                realize your deepest dreams. Sign up <em>now</em> to get started.</P>
+            <h2>This is not a real or online sign in form! you know you need something like this in your life to help
+                you
+                realize your deepest dreams. Sign up <em>now</em> to get started.</h2>
 
-            <p>You <em>know</em> you want to</p>
+            <!-- padding -->
+            <br>
+
+            <h2>You <em>know</em> you want to</h2>
         </div>
 
         <div id="form-section">
             <form id="myform" action="" method="get">
                 <h2>Let's do this!</h2>
 
-                <div>
-                    <label for="fname">FIRST NAME</label>
-                </div>
-                <input type="text" id="fname" name="fname">
+                <div id="form-inputs">
+                    <div>
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
 
-                <div>
-                    <label for="lname">LAST NAME</label>
-                </div>
-                <input type="text" id="lname" name="lname">
+                    <div>
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
 
-                <div>
-                    <label for="email">EMAIL</label>
-                </div>
-                <input type="email" id="email" name="email">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
 
-                <div>
-                    <label for="phone">PHONE NUMBER</label>
-                </div>
-                <input type="tel" id="phone" name="phone">
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
 
-                <div>
-                    <label for="password">PASSWORD</label>
-                </div>
-                <input type="password" id="pass" name="password">
-                <!-- "* Passwords do not match" text added in js when passwords dont match -->
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="pass" name="password">
+                        <!-- "* Passwords do not match" text added in js when passwords dont match -->
+                    </div>
 
-                <div>
-                    <label for="conf-password">CONFIRM PASSWORD</label>
+                    <div>
+                        <label for="conf-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="con-pass" name="conf-password">
+                    </div>
                 </div>
-                <input type="password" id="con-pass" name="conf-password">
-
             </form>
         </div>
 

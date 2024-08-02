@@ -21,9 +21,22 @@ body {
     justify-content: center;
 }
 
+#explanation-section {
+    margin: 30px;
+}
+
 #form-section {
+    box-shadow: 2px 5px 5px lightgrey;
+
+}
+
+#myform {
     background-color: white;
-    ;
+    padding: 30px;
+}
+
+#submit-section {
+    margin: 30px;
 }
 
 img {
@@ -32,9 +45,37 @@ img {
     width: 500px;
 }
 
+#transparent-background {
+    background-color: black;
+    opacity: 80%;
+}
+
+#main-title {
+    color: white;
+}
+
+#form-inputs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+
+input,
+label {
+    display: block;
+}
+
+label {
+    float: above;
+}
+
 input {
     border: 2px solid #E5E7EB;
     border-radius: 5px;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+    width: 200px;
 }
 
 input:focus {
@@ -45,6 +86,4 @@ input[type="submit"] {
     background-color: #596D48;
     color: white;
     padding: 5px;
-    /* moved border radius into main input box */
-    /* border-radius: 5px;  */
 }
