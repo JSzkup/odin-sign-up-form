@@ -22,7 +22,7 @@ body {
 }
 
 #explanation-section {
-    margin: 30px;
+    margin: 30px 300px 30px 30px;
 }
 
 #form-section {
@@ -32,16 +32,33 @@ body {
 
 #myform {
     background-color: white;
-    padding: 30px;
+    padding: 30px 200px 30px 30px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 10px;
+}
+
+.form-element {
+    flex: 1 1 calc(50% - 10px);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-element label {
+    margin: 10px 0px 5px 10px;
 }
 
 #submit-section {
     margin: 30px;
 }
 
-img {
-    /* images made small temporarily to work on the rest of the css */
-    height: 100%;
+#img-banner {
+    height: 100vh;
     width: 500px;
 }
 
@@ -61,21 +78,13 @@ img {
 
 }
 
-input,
-label {
-    display: block;
-}
-
-label {
-    float: above;
-}
 
 input {
     border: 2px solid #E5E7EB;
     border-radius: 5px;
     padding: 10px;
     margin: 0px 10px 0px 10px;
-    width: 200px;
+    width: 175px;
 }
 
 input:focus {
