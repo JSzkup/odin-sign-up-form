@@ -4,6 +4,11 @@
     font-family: "Arial";
 }
 
+@font-face {
+    font-family: norse-bold;
+    src: url('../fonts/Norse-Bold.otf');
+}
+
 body {
     background-color: whitesmoke;
     /* Contains the left and right flexboxes and aligns them properly */
@@ -33,9 +38,16 @@ body {
     text-align: center;
 
     z-index: 2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #transparent-background h1 {
+    font-family: norse-bold;
+    font-size: 4rem;
+
     z-index: 3;
 }
 
